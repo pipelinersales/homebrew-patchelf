@@ -6,7 +6,7 @@ class Patchelf < Formula
 
     def install
         system "clang++", 
-               "-DPACKAGE_STRING=\\\"0.9\\\"",
+               "-DPACKAGE_STRING=\"0.9\"",
                "-DPAGESIZE=4096",
                "-std=c++14",
                "-O3",
